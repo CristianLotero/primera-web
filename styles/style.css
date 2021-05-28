@@ -1,6 +1,13 @@
 html {
   font-size: 15px; /* px quiere decir 'píxeles': el tamaño de la fuente base es ahora de 10 píxeles de altura */
   font-family: 'Itim', cursive; /* Este debe ser el resto del resultado que obtuviste de Google fonts */
+  width: 100%;/* acá estoy probando el diseño responsivo de la página para ajustar la variabilidad del ancho.*/
+        max-width: 1200px;
+        margin: 0 auto;
+}
+header { /* lo copíe de otro CSS para ver si se aplica como quiero, sino hay que comenzar borrando solo esto*/
+  background: url(halong.jpg) no-repeat center;
+  height: 500px;
 }
 h1 {
   font-size: 60px;
