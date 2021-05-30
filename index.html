@@ -8,11 +8,17 @@
   </head>
   <body>
     <header>
-      <picture>
-        <source media="(max-width: 799px)" srcset="halong480.jpg">
+      <!-- <picture>
+        <source media="(max-width: 799px)" srcset="halong284.jpg">
         <source media="(min-width: 800px)" srcset="halong.jpg">
-        <img src="halong.jpg" class="center" alt="Halong bay en Vietnam">
-      </picture>
+        <img src="halong.jpg" class="heathercenter" alt="Halong bay en Vietnam">
+      </picture>-->
+      <img srcset="halong284.jpg 284w,
+                  halong615.jpg 615w,
+                  golden800.jpg 800w"
+                  sizes="(max-width:350px) 284px,
+                  (max-with: 480px) 440px, 600px" 
+                  src="golden800.jpg" alt="golden Bridge vietnam" class="heathercenter">
     </header>
       <h1>Breve reseña de mi viaje por <abbr title="South East Asia"> SEA </abbr></h1>
     
