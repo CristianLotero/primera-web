@@ -5,17 +5,14 @@
     <title>Mi página de prueba</title>
     <link href="styles/style.css" rel="stylesheet" type="text/css">
     <link href="https://fonts.googleapis.com/css2?family=Itim&display=swap" rel="stylesheet" type="text/css">
-    <style>
-    
-    header { 
-      background: url(halong.jpg) no-repeat center;
-      height: 500px;
-    }
-    </style>
   </head>
   <body>
     <header>
-
+      <picture>
+        <source media="(max-width: 799px)" srcset="halong480.jpg">
+        <source media="(min-width: 800px)" srcset="halong.jpg">
+        <img src="halong.jpg" class="center" alt="Halong bay en Vietnam">
+      </picture>
     </header>
       <h1>Breve reseña de mi viaje por <abbr title="South East Asia"> SEA </abbr></h1>
     
